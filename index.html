@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Funções JavaScript</title>
+</head>
+
+<body>
+
+    <h1>Funções JavaScript</h1>
+    <div class="container">
+
+        <div class="galery">
+            <br>
+            <h2>1. Maior e Menor</h2>
+            <hr>
+            <div class="entradas">
+                <input type="number" id="a" placeholder="Informe o primeiro valor">
+                <input type="number" id="b" placeholder="Informe o segundo valor">
+                <input type="number" id="c" placeholder="Informe o terceiro valor">
+                <input type="number" id="d" placeholder="Informe o quarto valor">
+                <input type="number" id="e" placeholder="Informe o quinto valor">
+            </div>
+            <button onclick="MAIOR_MENOR()" class="botao">Calcular</button>
+            <div id="result1" class="result"></div>
+        </div>
+
+        <div class="galery">
+            <h2>2. Vogal</h2>
+            <hr>
+            <div class="entradas">
+                <input type="text" id="char" maxlength="1" placeholder="Informe um caractere">
+            </div>
+            <button onclick="VOGAL()" class="botao">Verificar</button>
+            <div id="result2" class="result"></div>
+        </div>
+
+        <div class="galery">
+            <h2>3. Números Pares e Somatório</h2>
+            <hr>
+            <div class="entradas">
+                <input type="number" id="limInf" placeholder="Informe o limite inferior">
+                <input type="number" id="limSup" placeholder="Informe o limite superior">
+            </div>
+            <button onclick="LIMITES()" class="botao">Calcular</button>
+            <div id="result3" class="result"></div>
+        </div>
+
+        <div class="galery">
+            <h2>4. Ordem Crescente</h2>
+            <hr>
+            <div class="entradas">
+                <input type="number" id="val1" placeholder="Informe o primeiro valor">
+                <input type="number" id="val2" placeholder="Informe o segundo valor">
+                <input type="number" id="val3" placeholder="Informe o terceiro valor">
+            </div>
+            <button onclick="ORDEM()" class="botao">Ordenar</button>
+            <div id="result4" class="result"></div>
+        </div>
+
+        <div class="galery">
+            <h2>5. Positivo ou Negativo</h2>
+            <hr>
+            <div class="entradas">
+                <input type="number" id="poNe" placeholder="Informe um valor">
+            </div>
+            <button onclick="POSITIVO_NEGATIVO()" class="botao">Verificar</button>
+            <div id="result5" class="result"></div>
+        </div>
+
+        <div class="galery">
+            <h2>6. Par ou Ímpar</h2>
+            <hr>
+            <div class="entradas">
+                <input type="number" id="paIn" placeholder="Informe um valor">
+            </div>
+            <button onclick="PAR_IMPAR()">Verificar</button>
+            <div id="result6" class="result"></div>
+            <br><br>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
