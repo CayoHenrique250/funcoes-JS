@@ -93,3 +93,71 @@ button {
     background-color: #fff3b2;
     margin-bottom: 5%;
 }
+
+/* Versão mobile */
+@media (max-width: 480px){
+    
+h1 {
+    margin-top: 10%;
+    margin-bottom: 6%;
+    -webkit-text-stroke-width: 0.5px;
+    font-size: 30px;
+}
+
+.container {
+   
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.galery {
+    margin: 5%;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 100%;
+}
+hr {
+    margin-top: -1.5%;
+    height: 1px;
+    margin-bottom: 7%;
+}
+
+.entradas {
+    margin-bottom: 7%;
+}
+
+input {
+
+    margin: 7px;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 7px;
+    width: 45%;
+    margin-left: 20%;
+}
+
+button {
+
+    margin: 5px;
+    padding: 8px;
+    font-size: 12px;
+    margin-bottom: 7%;
+    border-radius: 50px;
+    width: 50%;
+    height: 35px;
+    margin-left: 20%;
+}
+
+.result {
+    margin-top: 5%;
+    padding: 10px;
+    border: 1px solid #fdc660;
+    margin-bottom: 5%;
+}
+
+
+}
